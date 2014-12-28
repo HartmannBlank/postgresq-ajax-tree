@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<meta charset="UTF-8">
+<head><TITLE>Dirs</TITLE>
+<style type="text/css">@import "tree.css";</style>
+<script src="jquery.js"></script>
+<script src="tree.js"></script>
+<script>
+onload = function() { tree("tree", "data.php", "datadel.php") }
+</script>
+</head>
+<body>
+Directories:
+<ul class="Container" id="tree">
+<li id="0" class="Node IsRoot IsLast ExpandClosed">
+<div class="Expand"></div>
+<div class="Content">Root</div>
+<ul class="Container">
+</ul>
+</li>
+</ul>
+</body>
+</html>
+
